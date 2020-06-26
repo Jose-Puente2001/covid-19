@@ -1,0 +1,40 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.content{
+   
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+   grid-gap: 10px;
+   margin: 20px auto;
+}
+
+
+img{
+   width: 300px;
+   height: 200px;
+   grid-column: 3/5;
+}
+
+
+#Date h3{
+
+   margin-top: 40px;
+   grid-column: 3/5;
+
+}
+
+
+#nuevoscasos h3{
+
+   grid-column: 3/5;
+}
+
+
+#Total h3{
+
+   grid-column: 3/5;
+}
+
