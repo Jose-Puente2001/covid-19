@@ -38,3 +38,39 @@ img{
    grid-column: 3/5;
 }
 
+@media screen and (max-width: 600px){
+
+     img{
+     	grid-column: 3/4;
+
+     }
+
+     #Date h3{
+
+   margin-top: 40px;
+   grid-column: 3/4;
+   display: inline-block;
+   text-align: center;
+
+   }
+
+
+
+
+  #nuevoscasos h3{
+
+   grid-column: 3/4;
+   display: inline-block;
+   text-align: center;
+   margin-top: 20px;
+  }  
+
+
+  #Total h3{
+
+   grid-column: 3/4;
+   margin-top: 20px;
+
+   }
+
+}
